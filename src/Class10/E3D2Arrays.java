@@ -1,6 +1,6 @@
 package Class10;
 
-public class E3d2Arrays {
+public class E3D2Arrays {
 
     public static void main(String[] args) {
 
