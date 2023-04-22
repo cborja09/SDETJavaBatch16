@@ -11,6 +11,7 @@ public class E3Arrays {
         for (int j = 0; j < numbers.length; j++) {
 
             System.out.print(numbers[j]+" ");
+            
         }
 
     }

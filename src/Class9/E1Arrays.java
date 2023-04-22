@@ -9,6 +9,7 @@ public class E1Arrays {
         names=> a variable name or name of the array
         = => assignment operator
         {} => one of the ways to create arrays
+        String []"variable name/name of array = {}
          */
 
         /*
@@ -16,7 +17,7 @@ public class E1Arrays {
         and access only the number 50
          */
 
-        int numbers[]= {30, 40,50,90};
+        int[] numbers= {30, 40,50,90};
         System.out.println(numbers[2]);
 
 

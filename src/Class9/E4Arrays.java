@@ -5,7 +5,7 @@ public class E4Arrays {
 
         /*
         create an array of Strings store 5 names in that array
-        print all of the names from that array with the help of a for loop
+        print all the names from that array with the help of a for loop
         try printing with the help of a while loop as well
          */
 
