@@ -1,6 +1,6 @@
 package Class10;
 
-public class Practice {
+public class Practice1 {
     public static void main(String[] args) {
 
         // Write a program that will print the sum of all elements in 2D array.
