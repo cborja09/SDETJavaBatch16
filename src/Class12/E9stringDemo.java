@@ -5,7 +5,7 @@ public class E9stringDemo {
 
         String sentence="I don't see SEARCH result";
 
-        System.out.println(sentence.endsWith("result"));
-        System.out.println(sentence.contains("see"));
+        System.out.println(sentence.endsWith("result")); // checks if sentence ends with a specific word
+        System.out.println(sentence.contains("see")); // checks if the sentence has a specific word
     }
 }

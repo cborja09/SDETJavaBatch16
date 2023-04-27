@@ -8,6 +8,6 @@ public class E4StringDemo {
 
         String fullName=firstName+lastName; // this syntax is the most widely used approach
         System.out.println(fullName);
-        System.out.println(firstName.concat(lastName));
+        System.out.println(firstName.concat(lastName)); // adds to strings together like a sentence
     }
 }

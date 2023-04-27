@@ -6,7 +6,7 @@ public class E2StringDemo {
         String userName="Admin";
         String password="pass123";
         // write code to check the username and password. If the username and password
-        // are less than 8 characters this message should be printed "Signup sucessfull".
+        // are less than 8 characters this message should be printed "Signup successfull".
         // Otherwise print "Username and password can't be more than 8 characters.
 
         if (userName.length()>8 && password.length()>8){
