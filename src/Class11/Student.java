@@ -1,7 +1,7 @@
 package Class11;
 
 public class Student {
-    // properties/fields/attributes
+    // properties/fields/attributes below
 
     String name;
     String id;
@@ -10,7 +10,9 @@ public class Student {
     char grade;
     double weight;
 
-    //functions, methods, behaviors
+
+    //functions, methods, behaviors below. also actions.
+
     void sleep(){
         System.out.println("sleeping...ZZZZ");
     }
