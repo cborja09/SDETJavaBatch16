@@ -1,7 +1,7 @@
 package Class11;
 
 public class Student {
-    // properties/fields/attributes below
+    // properties/fields/state/attributes below
 
     String name;
     String id;
