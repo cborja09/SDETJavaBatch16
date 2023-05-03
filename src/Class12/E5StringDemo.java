@@ -5,6 +5,6 @@ public class E5StringDemo {
 
         String name=" ";
         System.out.println(name.isEmpty()); // it checks if empty
-        System.out.println(name.isBlank()); // it checks the spaces are blank
+        System.out.println(name.isBlank()); // it checks if the spaces are blank
     }
 }
