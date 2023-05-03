@@ -13,7 +13,7 @@ public class E2ArrayManipulator {
     parameters=> (int [] arr)
     body=>
     {
-    go through all the elements of the array, add them and return the reults
+    go through all the elements of the array, add them and return the results
     }
      */
 
