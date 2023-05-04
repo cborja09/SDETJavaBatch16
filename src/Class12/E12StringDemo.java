@@ -9,7 +9,7 @@ public class E12StringDemo {
         System.out.println(sentence.substring(4,11));
         System.out.println(sentence.substring(12,19));
 
-        int startIndex= sentence.length()-4;
+        int startIndex= sentence.length()-5;
         System.out.println(sentence.substring(startIndex));
     }
 }
