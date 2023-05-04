@@ -9,7 +9,6 @@ public class E10StringDemo {
 
         int counter=0;
         for (int i = 0; i < name.length(); i++) {
-
             if (name.charAt(i)=='R'){
                 counter++;
             }
