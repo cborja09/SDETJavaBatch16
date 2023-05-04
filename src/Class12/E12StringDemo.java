@@ -9,7 +9,7 @@ public class E12StringDemo {
         System.out.println(sentence.substring(4,11));
         System.out.println(sentence.substring(12,19));
 
-        int startIndex= sentence.length()-5;
+        int startIndex= sentence.length()-5; // 5 is the last 5 characters of the sentence which is "class".
         System.out.println(sentence.substring(startIndex));
     }
 }
