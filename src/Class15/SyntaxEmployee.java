@@ -18,8 +18,8 @@ public class SyntaxEmployee {
         SyntaxEmployee asghar=new SyntaxEmployee();
         asghar.empId ="126456";
         asghar.salary=90000;
-        System.out.println(asghar.CEO); // not the preffered way
-        System.out.println(SyntaxEmployee.CEO); // this is the preffered way
+        System.out.println(asghar.CEO); // not the preferred way
+        System.out.println(SyntaxEmployee.CEO); // this is the preferred way
 
         SyntaxEmployee soheil=new SyntaxEmployee();
         soheil.empId="584685";
