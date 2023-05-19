@@ -8,6 +8,4 @@ public class Task1 {
      */
 
 
-
-
 }

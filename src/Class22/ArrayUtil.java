@@ -9,7 +9,7 @@ public interface ArrayUtil {
 
     int add(int num1,int num2);
 }
-// Break till 2PM
+
 class Main implements ArrayUtil{
 
 
