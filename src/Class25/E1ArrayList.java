@@ -16,7 +16,7 @@ public class E1ArrayList {
         Car car3 = new Car("BMW","I7");
 
         ArrayList<Car> arrayList = new ArrayList<>();
-        // creating object of the car class and storing it in a array list
+        // creating object of the car class and storing it in an array list
         arrayList.add(car1);
         arrayList.add(car2);
         arrayList.add(car3);
