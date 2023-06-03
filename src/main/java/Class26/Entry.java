@@ -13,7 +13,15 @@ public class Entry {
         return key;
     }
 
-    public Double getPrice() {
+    public Double getValue() {
         return value;
+    }
+
+    @Override
+    public String toString() {
+        return "Entry{" +
+                "key='" + key + '\'' +
+                ", value=" + value +
+                '}';
     }
 }
