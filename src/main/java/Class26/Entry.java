@@ -2,11 +2,11 @@ package Class26;
 
 public class Entry {
     String key;
-    Double price;
+    Double value;
 
     public Entry(String key, Double price) {
         this.key = key;
-        this.price = price;
+        this.value = price;
     }
 
     public String getKey() {
@@ -14,6 +14,6 @@ public class Entry {
     }
 
     public Double getPrice() {
-        return price;
+        return value;
     }
 }
