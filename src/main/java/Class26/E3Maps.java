@@ -13,5 +13,7 @@ public class E3Maps {
         drinks.put("Coffee",3.0);
         drinks.put("Tea", 3.5);
         //remove only those which only contains letter i and their price is less than 3
+
+
     }
 }
