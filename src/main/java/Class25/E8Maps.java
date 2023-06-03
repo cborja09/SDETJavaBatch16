@@ -1,5 +1,7 @@
 package Class25;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.util.LinkedHashMap;
 
 public class E8Maps {
@@ -15,6 +17,8 @@ public class E8Maps {
         System.out.println(ranks);
         ranks.replace(1,"Adam"); //replaces James for Adam in key 1
         System.out.println(ranks);
+
+        XSSFWorkbook xssfWorkbook;
 
     }
 }

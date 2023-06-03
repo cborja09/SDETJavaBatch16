@@ -1,9 +1,9 @@
 package Class25;
 
-import java.util.Set;
+import java.util.Collection;
 import java.util.TreeMap;
 
-public class E10Maps {
+public class E11Maps {
     public static void main(String[] args) {
 
         TreeMap<String,Double> makeup=new TreeMap<>();
@@ -13,8 +13,10 @@ public class E10Maps {
         makeup.put("Foundation",120.0);
         makeup.put("Base",25.0);
 
-        Set<String> keys = makeup.keySet();
-        keys.removeIf(x->x.contains("a"));
+        Collection<Double> values = makeup.values();
+        values.removeIf(v->v>80);
         System.out.println(makeup);
+
+
     }
 }
