@@ -1,8 +1,6 @@
 package Class26;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class E3Maps {
     public static void main(String[] args) {
@@ -18,5 +16,8 @@ public class E3Maps {
         for (Map.Entry<String, Double> e:entrySet){
             System.out.println(e.getKey()+" "+ e.getValue());
         }
+        //remove all of the entries for which key contains the letter i
+        //and value is greater than 2
+        entrySet.removeIf(x->x.getKey().contains("i") && x.getValue()>2);
     }
 }
