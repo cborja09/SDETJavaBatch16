@@ -6,6 +6,8 @@ package Class27;
 
 public class E1ConfigReader {
     public static void main(String[] args) {
+       //System.out.println("user.dir") => it gives you the path til your project
+        String path=System.getProperty("user.dir")+"/Files/Config.properties";
 
     }
 }
