@@ -13,8 +13,6 @@ import java.util.Properties;
 public class E2ConfigReader {
     public static void main(String[] args) throws IOException {
 
-
-
         WebDriver driver = new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login%22");
         driver.manage().window().maximize();
