@@ -13,24 +13,26 @@ import java.util.Properties;
 public class E2ConfigReader {
     public static void main(String[] args) throws IOException {
 
-        FileInputStream fis=new FileInputStream(Constants.ConfigReaderPath);
-        Properties properties=new Properties();
-        properties.load(fis);
+
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login%22");
         driver.manage().window().maximize();
         WebElement username = driver.findElement(By.cssSelector("#txtUsername"));
-        String userName= properties.getProperty("userName");
+        String userName=getProperty("userName");
         username.sendKeys(userName);
         WebElement passwordField = driver.findElement(By.cssSelector("#txtPassword"));
-        String password=properties.getProperty("password");
+        String password=getProperty("password");
         passwordField.sendKeys(password);
 
         WebElement login = driver.findElement(By.cssSelector(".button"));
         login.click();
+    }
 
-
-
+    public static String getProperty(String key) throws IOException {
+        FileInputStream fis=new FileInputStream(Constants.ConfigReaderPath);
+        Properties properties=new Properties();
+        properties.load(fis);
+        return properties.getProperty(key);
     }
 }
