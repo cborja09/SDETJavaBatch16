@@ -14,9 +14,11 @@ public class E4ExcelReader {
         //that special class which knows how to read the data from Excel files
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fileInputStream);
         Sheet sheet = xssfWorkbook.getSheet("Sheet1");
-        for (int rows = 0; rows < 4; rows++) {
+        int rowSize=sheet.getPhysicalNumberOfRows();
+        for (int rows = 0; rows < rowSize; rows++) {
             Row row = sheet.getRow(rows);
-            for (int col = 0; col < 5; col++) {
+            int colSize=row.getPhysicalNumberOfCells();
+            for (int col = 0; col < colSize; col++) {
                 System.out.print(row.getCell(col) + " ");
             }
             System.out.println();
